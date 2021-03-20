@@ -1,6 +1,6 @@
 <?php 
     $db_dsn = array( 
-        'host' => 'localhost',
+        'host' => 'us-cdbr-east-03.cleardb.com',
         'dbname' => 'db_LRG',
         'charset' => 'utf8'
     );
@@ -9,8 +9,8 @@
 
     //This is the DB credentials
 
-    $db_user = 'root';
-    $db_pass = 'root';
+    $db_user = 'b35f4ec6336ae2';
+    $db_pass = '890970fb';
 
     try{
         $pdo = new PDO($dsn, $db_user, $db_pass);
