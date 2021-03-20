@@ -1,0 +1,659 @@
+
+// Services
+
+.service-section{
+
+    width: 100%;
+    height: auto;
+    // background: rgb(158, 45, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .gallery-div{
+
+
+        width: 80%;
+        // background: red;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #434343;
+
+        #gal-title{
+            font-weight: bolder;
+            font-size: 2rem;
+            
+            letter-spacing: 1px;
+        }
+
+        #about-gal{
+            width: 60%;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .gallery-info{
+            width: 80%;
+            display: flex;
+            // flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .card{
+
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 15px;
+                .img-box{
+                    width: 150px;
+                    height: 150px;
+                    border:1px  rgb(255, 110, 52) solid;
+                    border-radius: 50%;
+                    margin-bottom: 15px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                p{
+                    width: 75%;
+                    text-align: center;
+                }
+
+                p:nth-child(2){
+                    font-weight: bolder;
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                    i{
+                        font-size: 2rem;
+                        // color: rgb(0, 26, 255);
+                    }
+                }
+
+                p:nth-child(3){
+                    font-size: 0.8rem;
+                }
+
+                a{
+                    width: 20%;
+                    text-decoration: none;
+                    color: #434343;
+                }
+                a:hover{
+                    width: 25%;
+                    display: flex;
+                    justify-content: space-between;
+                    color: rgb(255, 110, 52);
+                }
+            }
+
+        }
+    }
+}
+
+// services ends
+
+// Role of Referee
+.referee-role-section{
+
+    width: 100%;
+    height: 60vh;
+    background: rgb(248, 248, 248);
+
+    display: flex;
+
+    .ref-panel{
+        width: 65%;
+        height: 40vh;
+        // background: red;
+        display: flex;
+        margin: auto;
+
+        .about-ref{
+            width: 60%;
+            height: 40vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-family: 'Poppins', sans-serif;
+
+            p:nth-child(1){
+                font-weight: bolder;
+                font-size: 2rem;
+                color: #434343;
+                letter-spacing: 1px;
+            }
+
+            p:nth-child(2){
+                width: 90%;
+                font-size: 1.05rem;
+            }
+            
+        }
+
+        .ref-img{
+            width: 35%;
+            height: 40vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            img{
+                width: 90%;
+                border-radius: 50% 25% 50% 25%;
+            }
+        }
+    }
+}
+// Role Of Referee
+
+// Membership letter box
+
+.membership-letter-section{
+
+    width: 100%;
+    padding: 120px 0;
+    height: auto;
+    // background: lightsalmon;
+
+    display: flex;
+
+    .ref-img{
+        width: 50%;
+        height: 40vh;
+        // background: lightpink;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img{
+            width: 60%;
+            border-radius: 50%;
+        }
+    }
+
+    .ref-panel{
+        width: 65%;
+        height: 40vh;
+        // background: red;
+        display: flex;
+        margin: auto;
+
+        .about-ref{
+            width: 50%;
+            height: 40vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-family: 'Poppins', sans-serif;
+
+            p:nth-child(1){
+                font-weight: bolder;
+                font-size: 2rem;
+                color: #434343;
+                letter-spacing: 1px;
+            }
+
+            p:nth-child(2){
+                width: 90%;
+                font-size: 1.05rem;
+            }
+            
+        }
+
+    }
+}
+
+// Membership letter box
+
+// Gallery Section
+
+.gallery-section{
+
+    width: 100%;
+    height: auto;
+    background: rgb(255, 230, 218);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #434343;
+
+    .gallery-div{
+
+        width: 80%;
+        // background: red;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // color: #fff;
+
+        #gal-title{
+            font-weight: bolder;
+            font-size: 2rem;
+            
+            letter-spacing: 1px;
+        }
+
+        #about-gal{
+            width: 60%;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .gallery-info{
+            width: 100%;
+            display: flex;
+            // flex-direction: column;
+            justify-content: space-evenly;
+
+            .card{
+
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin-top: 15px;
+
+                .img-box{
+                    width: 20vw;
+                    height: 50vh;
+                    // background: chartreuse;
+                    margin-bottom: 15px;
+                    overflow: hidden;
+                    border-radius: 5%;
+                    // border: 4px rgb(255, 193, 77) solid;
+
+                    img{
+                        width: 100%;
+                    }
+
+                }
+
+                p:nth-child(2){
+                    font-weight: bolder;
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                }
+
+                p:nth-child(3){
+                    font-size: 0.8rem;
+                }
+
+                a{
+                    width: 18%;
+                    text-decoration: none;
+                    color: rgb(223, 70, 0);
+
+                    i{
+                        color: rgb(223, 70, 0);
+                    }
+                }
+                a:hover{
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-between;
+                    color: rgb(255, 110, 52);
+                }
+                
+            }
+
+        }
+    }
+}
+
+
+// Gallery Section
+
+// Partners
+.part-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 60vh;
+    // background: red;
+
+    .part-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50vh;
+
+        .part-title{
+            font-weight: bolder;
+            font-size: 2rem;
+            
+            letter-spacing: 1px;
+        }
+
+        .crop-line{
+            width: 800px;
+            position: relative;
+            overflow: hidden;
+
+            .part-collection{
+                width: 1600px;
+                transition: 2s ease;
+                margin-left: 0px;
+            }
+
+            .arrow-icon{
+                width: 800px;
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                top: 40%;
+
+                .left-icon, .right-icon{
+                    width: 50px;
+                    height: 50px;
+                    background: rgba(221, 111, 33, 0.5);
+            
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            
+                .left-icon{
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+            
+                .right-icon{
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+            
+                .left-icon:hover, .right-icon:hover{
+                    cursor: pointer;
+                    background: rgb(255, 147, 70);
+                    color: #fff;
+                }
+            }
+        
+            .part-collection a img{
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
+}
+
+// Partners end
+
+// Social Media Feature Section 
+.social-section{
+
+    width: 100%;
+    height: auto;
+    // background: rgb(158, 45, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .gallery-div{
+
+        width: 80%;
+        // background: red;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #434343;
+
+        #gal-title{
+            font-weight: bolder;
+            font-size: 2rem;
+            
+            letter-spacing: 1px;
+        }
+
+        #about-gal{
+            width: 60%;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .gallery-info{
+            width: 80%;
+            display: flex;
+            // flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .card{
+
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 15px;
+                border: 1px #000 solid;
+                border-radius: 10px;
+
+                padding: 10px;
+                background: rgb(255, 251, 251);
+
+                .img-box{
+                    width: 15vw;
+                    height: 20vh;
+                    background: chartreuse;
+                    margin-bottom: 15px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+                p{
+                    width: 75%;
+                    display: flex;
+                    justify-content: flex-start;
+                }
+
+                p:nth-child(2){
+                    font-weight: bolder;
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                    font-family: 'Pacifico', cursive;
+                    // font-weight: normal;
+                    i{
+                        font-size: 2rem;
+                        // color: rgb(0, 26, 255);
+                    }
+                }
+
+                p:nth-child(3){
+                    font-size: 0.8rem;
+                }
+
+                a{
+                    width: 30%;
+                    text-decoration: none;
+                    color: #434343;
+                }
+                a:hover{
+                    width: 35%;
+                    display: flex;
+                    justify-content: space-between;
+                    color: rgb(255, 110, 52);
+                }
+            }
+
+        }
+    }
+}
+// Social Media Feature Section 
+
+// Service - Media Queries
+
+@media only screen and (max-width:1400px){
+    .service-section .gallery-div{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1214px){
+
+
+    .service-section {
+        .gallery-div{
+            width: 100%;
+            
+            .gallery-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                width: 100%;
+
+                .card{
+                    width: 80%;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .gallery-section {
+      
+        .gallery-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+            
+            .gallery-info{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                width: 100%;
+
+                .card{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    text-align: center;
+
+                    .img-box{
+                        width: 250px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .referee-role-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .ref-panel{
+            display: flex;
+            flex-direction:column-reverse;
+            justify-content: space-evenly;
+            align-items: center;
+
+            width: 100%;
+            text-align: center;
+        }   
+        
+        .ref-img img{
+            display: none;
+        }
+    }
+
+    .membership-letter-section{
+
+        .ref-panel{
+            position: relative;
+            text-align: center;
+            .about-ref{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .log-button{
+                    width: 100%;
+
+                    display: flex;
+                    justify-content: space-evenly;
+                    // background: red;
+                }
+            }
+        }
+
+
+        .ref-panel .ref-img{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .referee-role-section .ref-panel .about-ref{
+        width: 80%;
+    }
+
+    .membership-letter-section{
+        
+        .ref-panel .about-ref{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            p:nth-child(1){
+                font-size: 20px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,224 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin: auto;
+    padding: 120px;
+    .form-block{
+        // background: chartreuse;
+
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        p{
+            font-size: 2rem;
+            font-weight: bold;
+            color: crimson;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 60vh;
+
+            input,textarea{
+                    width: 80%;
+                    padding: 12px 60px;
+                    // margin: 8px 0;
+                    // display: inline-block;
+                    border: 1px solid rgb(255, 81, 1);
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    background-color: rgb(255, 214, 198);
+                    margin: 7px 0;
+            }
+            .submit-wrapper {
+                margin-top: 20px;
+            }
+            .submit{
+                cursor: pointer;
+                width: 80%;
+                padding: 12px 20px;
+                background: #434343;
+                color: white;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border: none;
+                border-radius: 10px;
+                margin-top: 7px;
+            }
+
+            .submit:hover{
+                background: #747474;
+            }
+        }
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        // background: red;
+        height: 60vh;
+
+        .contact-title
+        {
+            p:nth-child(1){
+                font-size: 1.5rem;
+                font-weight: bolder;
+                color: #434343;
+            }
+
+            p:nth-child(2){
+                font-size: 1.1rem;
+            }
+        }
+
+        .contact-social{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 30vh;
+        }
+
+        .phone{
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 1.25rem;
+
+            i{
+                color: crimson;
+            }
+
+            p{
+                margin-left: 20px;
+            }
+        }
+
+        .social-icons{
+            display: flex;
+            justify-content: space-evenly;
+            color: #434343;
+            width: 50%;
+            
+            
+            i{
+                margin-top: 50px;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+// lightbox contact
+.lightboxCon {
+    .lightbox-contact {
+        display: none;
+        
+    }
+}
+.lightbox-contact {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: white;
+    .button {
+        height: 100%;
+        overflow: scroll;
+    }
+    
+    .close {
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    font-size: 30px;
+    
+    }
+}
+    
+
+.mess-sub {
+    padding: 30px;
+        display: flex;
+        flex-direction: column;
+        p {
+            position: relative;
+            font-size: 16px;
+            top: 30vh;
+            left: 20px;
+            
+            
+            z-index: 3;
+        }
+}
+.show-lb {
+    display: flex !important;
+}
+
+// Media Queries - Contact Page
+
+@media only screen and (max-width:1200px){
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .contact-info .contact-title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contact-social .phone{
+            display: flex;
+        }
+
+        .phone i,p{
+            margin-bottom: 20px;
+        }
+        .social-icons{
+            margin: auto;
+        }
+        .mess-sub  p {
+            top: 30vh;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .contact-section{
+        padding: 120px 5px;
+    }
+    .contact-section .form-block form 
+    {
+        width: 100%;
+        input, button{
+            width: 100%
+        }
+
+        textarea{
+            width: 100%;
+        }
+    }
+    .mess-sub  {
+        padding: 20px;
+        p{
+            top: 20vh;
+            font-size: 18px;
+        }
+    }
+}
