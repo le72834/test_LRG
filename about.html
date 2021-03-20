@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>About Us | LRG</title>
+</head>
+<body>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <title>About Us</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="hero-home">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul class="nav-links">
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Programs</button>
+                            <div class="dropdown-content">
+                              <a href="#">Junior Mentorship Program</a>
+                              <a href="#">Membership Program</a>
+                              <a href="#">Careers</a>
+                            </div>
+                        </div> 
+                        <!-- <li><a href="#">Refree</a></li>
+                        <li><a href="#">Membership</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="ref-button">
+                    <div class="log-button">
+                        <a href="admin/admin_login.php"><button>Log In</button></a>
+                    </div>
+                    <div class="ham-burger">
+                        <i class="bars icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-pos">
+                <p>Contact Us</p><br>
+            </div>
+        </div>
+        <div class="who-are-we">
+            <h1>About us</h1>
+            <p>We are an organization of 225 hockey referees serving London and area.
+            If you are currently looking for an organization to referee your hockey league,
+            our team would like the opportunity to assist</p><br>
+            <div class="log-button">
+                <button>More</button>
+            </div>
+        </div>
+    </header>
+    
+    
+    <section class="about-info">
+        <div class="about-pic">
+            <img src="images/about_img.jpg" alt="about referee">
+        </div>
+        <div class="about-text">
+            <h2>About us</h2>
+            <h3>Our game starts here</h3>
+            <p>The London referees Group is an organization of 225 hockey referees serving London and area. If you are currently looking for an organization to referee your minor hockey league or your mens hockey league. </p>
+        </div>
+    </section>
+    <section class="about-history">
+        <div class="history-pic">
+            <img src="images/about_his.jpg" alt="about history">
+        </div>
+        <div class="history-text">
+            <h2>Our History</h2>
+            <h3>Historic LRG Highlights</h3>
+            <p>The name of the organization is the "London Referees' Group" and maybe referred to in the organization's documents and records as "LRG". LRG is an unincorporated private association of its members, established on 15 July 2007 at London, Ontanrio. </p>
+        </div>
+        
+    </section>
+
+    <section id="app">
+        <div class="people-info">
+            <ul>
+                <newmessage @showmydata="showPeopleData" v-for="people in carmodel" :people="people" :key="people.id"></newmessage>
+            </ul>
+            </div>
+            <section class="bio-data" :class=" {'show-bio' : showBioData}">
+               <h2>{{currentPeopleData.name}}</h2>
+               <h3>Role: {{currentPeopleData.role}}</h3>
+               <p>Email: {{currentPeopleData.email}}</p>
+           </section>
+           <div class="people-text">
+            <p>Click the image to see more infomation!</p>
+           </div>
+    </section>
+        
+        
+        <footer>
+            <div class="footer">
+                <div class="footer__addr">
+                    <h1 class="footer__logo">
+                        <img src="images/logo_W.png" alt="">
+                    </h1>
+                       
+                    <p>We are an organization of 225 hockey referees serving London and area.
+                      If you are currently looking for an organization to referee your hockey league,
+                      our team would like the opportunity to assist</p>
+                    <h3>Contact</h3>
+                    
+                    <address>
+                      London, Ontario, CA<br>
+                          
+                      <a class="footer__btn" href="#">Contact Us</a>
+                    </address>
+                </div>
+                <ul class="footer__nav">
+                    <li class="nav__item">
+                      <h2 class="nav__title">Programs</h2>
+                
+                      <ul class="nav__ul">
+                        <li>
+                          <a href="#">Junior Mentorship</a>
+                        </li>
+                
+                        <li>
+                          <a href="#">Officials Development</a>
+                        </li>
+                            
+                        <li>
+                          <a href="#">Tournaments</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav__item">
+                        <h2 class="nav__title">Legal</h2>
+                        
+                        <ul class="nav__ul">
+                          <li>
+                            <a href="#">Privacy Policy</a>
+                          </li>
+                          
+                          <li>
+                            <a href="#">Terms of Use</a>
+                          </li>
+                          
+                          <li>
+                            <a href="#">Security</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <h2 class="nav__title">Menu</h2>
+                        
+                        <ul class="nav__ul">
+                          <li>
+                            <a href="#">Home</a>
+                          </li>
+                          
+                          <li>
+                            <a href="#">About Us</a>
+                          </li>
+                          <li>
+                            <a href="#">Careers</a>
+                          </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="legal">
+                    <p>&copy; 2021 All rights reserved.</p>
+                    
+                    <div class="legal__links">
+                        <i class="instagram icon"></i>
+                        <i class="facebook icon"></i>
+                        <i class="twitter icon"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type="module" src="/scripts/components/navside.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src='scripts/about.js' type='module'></script>
+       
+       
+   
+
+</body>
+</html>
