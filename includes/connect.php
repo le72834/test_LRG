@@ -1,7 +1,7 @@
 <?php 
     $db_dsn = array( 
         'host' => 'us-cdbr-east-03.cleardb.com',
-        'dbname' => 'db_LRG',
+        'dbname' => 'heroku_8e59feaedfca6cf',
         'charset' => 'utf8'
     );
 

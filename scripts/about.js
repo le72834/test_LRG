@@ -18,7 +18,7 @@ import ChatMessage from "./components/TheMessageComponent.js";
             console.log("vue is mounted, trying a fetch for the initial data");
             fetchData("./includes/index.php")
             .then(data => { 
-                    
+                  debugger;  
                 data.forEach(people =>this.carmodel.push(people));
                 this.currentPeopleData = data;
                 
